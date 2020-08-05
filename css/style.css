@@ -6,13 +6,14 @@
 body{
 overflow-x:hidden;
 height: 2000px;
+font-family: sans-serif;
 }
 .container{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
 }
-.top-content{
+.topcontent{
 	background-image: url(../img/topcontainer.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -20,11 +21,27 @@ height: 2000px;
 	width:100%;
 	border-bottom:25deg;
 	border-bottom-left-radius: 25%;
+	transition: 2s;
+	position: relative;
+	z-index: 4;
+}
+.topcontainer{
+	height: 90vh;
+	width:100%;
+	background-color: purple;
+}
+.transition{
+	height: 50vh;
+	border-bottom-left-radius: 75%;
+	transition: 2s;
+	border-bottom-right-radius: 50%;
 }
 .header{
 	display: inline-block;
 	width: 100%;
 	position: fixed;
+	transition: 2s;
+	z-index: 7;
 }
 .header .logo-area{
 	float: left;
@@ -46,6 +63,7 @@ height: 2000px;
 	font-weight: bold;
 	text-transform: capitalize;
 	color: #fff;
+	font-size: 10px;
 }
 .header .buttons .btn a:hover{
 	color: purple;
@@ -53,22 +71,162 @@ height: 2000px;
 .header .buttons  a:hover .btn{
 	padding-top: 20px;
 }
-.top-content .title{
+.topcontent .title{
 	text-align: center;
 	color: #fff;
-	padding-top: 35vh;
+	padding-top: 20vh;
 	font-size: 40px;
 	display: block;
 	opacity: 1;
 	transition: 2s;
 	opacity: 1;
 }
+.topcontent .title h1 {
+	font-weight: 100px;
+	font-size: 100px;
+	text-transform: uppercase;
+}
+.topcontent .title h2 {
+	font-weight: 20px;
+	text-transform: lowercase;
+}
+.topcontent .nav-con{
+	width: 100%;
+	text-align: center;
+}
+.topcontent .navigation{
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: auto;
+	margin-top: 60px;
+	text-align: center;
+}
+.topcontent .navigation button{
+	float: left;
+	width: 100px;
+	height: 40px;
+	border-radius: 25px;
+	align-items: center;
+	border: none;
+	cursor: pointer;
+}
+.topcontent .nav-con .navigation .learn{
+	background-color: purple;
+	font-weight: bold;
+	color: #fff;
+	margin-right: 10px;
+	transition: 2s;
+}
+.topcontent .nav-con .navigation  .join {
+	background-color: #fff;
+	font-weight: bold;
+	color:purple;
+	transition: 2s;
+}
 .diss{
 	transition:2s;
 	display: none;
-	transform: rotate(-540deg);
+	transform: rotate(-180deg);
 	opacity: 0;
 }
 .style{
 	background-color: rgb(100,0,255,0.3);
+	transition: 2s;
+}
+.style .buttons .btn {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: 2s;
+}
+.margone{
+	margin-left: -1000px;
+	transition: 4s;
+	transform: rotate(360deg);
+}
+.margtwo{
+	margin-right:-1000px;
+	transition: 4s;
+	transform: rotate(-360deg);
+	opacity: 0;
+}
+.bg {
+  position: relative;
+  height: 150vh;
+  width: 100%;
+  background: #fff;
+  padding-top: 50px;
+}
+.bg:after,
+.bg:before {
+  position: absolute;
+  content: '';
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  transform-origin: right top;
+}
+.bg:before {
+  top: 0px;
+  background: navy;
+  transform: skewY(-45deg);
+}
+.bg:after {
+  top: -100%;
+  background: purple;
+  transform: skewY(-15deg);
+}
+span {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.prodcon{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 3;
+	height: 500px;
+	margin-top: 40px;
+	text-align: center;
+	display: flex;
+  	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+.box {
+position: relative;
+width: 50%;
+height: 300px;
+line-height: 300px;
+font-size: 50px;
+text-align: center;
+border: 2px solid black;
+left: 50%;   
+top: 0px;
+margin-left: -25%;
+z-index: 4;
+cursor: pointer;
+}
+
+ #box1 {
+background-color: green;
+left: -150%;
+
+}
+
+
+#box2 {
+background-color: yellow;
+left:50%;
+ }
+
+ #box3 {
+background-color: red;
+left: 150%;
+
 }
