@@ -188,13 +188,54 @@ span {
 .prodcon{
 	width: 100%;
 	position: relative;
-	overflow: hidden;
+	overflow: scroll;
 	z-index: 3;
 	height: 500px;
-	margin-top: 40px;
+	margin-top: 100px;
 	text-align: center;
 	display: flex;
   	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
+	background-color: rgb(255,0,255,0.5);
+}
+.slidecon{
+	width: 60%;
+	height: 100%;
+	position: relative;
+	background:#000;
+	transition: 5s;
+}
+.slidecon .box{
+	width: 90%;
+	height: 90%;
+	background-color: #fff;
+	margin: 5%;
+	float:left;
+	animation: slide 20s linear infinite;
+}
+.slideconsub{
+	width: auto;
+	height: auto;
+	display: inline-block;
+}
+.slidecon .box #bone{
+	background-color: red;
+}
+.slidecon .box #bone{
+	background-color: blue;
+}
+@keyframes slide{
+	0%{
+		margin-left: 0;
+	}
+	25%{
+		margin-left: -60%
+	}
+	75%{
+		margin-left: -120%;
+	}
+	100%{
+		margin-left: 0;
+	}
 }
