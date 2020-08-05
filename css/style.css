@@ -198,35 +198,3 @@ span {
 	align-content: center;
 	justify-content: center;
 }
-.box {
-position: relative;
-width: 50%;
-height: 300px;
-line-height: 300px;
-font-size: 50px;
-text-align: center;
-border: 2px solid black;
-left: 50%;   
-top: 0px;
-margin-left: -25%;
-z-index: 4;
-cursor: pointer;
-}
-
- #box1 {
-background-color: green;
-left: -150%;
-
-}
-
-
-#box2 {
-background-color: yellow;
-left:50%;
- }
-
- #box3 {
-background-color: red;
-left: 150%;
-
-}
