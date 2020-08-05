@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+overflow-x:hidden;
+height: 2000px;
+}
+.container{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.top-content{
+	background-image: url(../img/topcontainer.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 90vh;
+	width:100%;
+	border-bottom:25deg;
+	border-bottom-left-radius: 25%;
+}
+.header{
+	display: inline-block;
+	width: 100%;
+	position: fixed;
+}
+.header .logo-area{
+	float: left;
+	width: 40%;
+}
+.header .buttons{
+	float: right;
+	width: 50%;
+}
+.header .buttons .btn{
+	float: left;
+	width: 23%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.header .buttons .btn a{
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #fff;
+}
+.header .buttons .btn a:hover{
+	color: purple;
+}
+.header .buttons  a:hover .btn{
+	padding-top: 20px;
+}
+.top-content .title{
+	text-align: center;
+	color: #fff;
+	padding-top: 35vh;
+	font-size: 40px;
+	display: block;
+	opacity: 1;
+	transition: 2s;
+	opacity: 1;
+}
+.diss{
+	transition:2s;
+	display: none;
+	transform: rotate(-540deg);
+	opacity: 0;
+}
+.style{
+	background-color: rgb(100,0,255,0.3);
+}
