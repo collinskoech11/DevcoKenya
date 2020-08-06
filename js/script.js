@@ -25,4 +25,19 @@ window.addEventListener('scroll',
 	function(){
 		const topcontent = document.querySelector('.topcontent');
 		topcontent.classList.toggle("transition",window.scrollY > 30)
+	});
+window.addEventListener('scroll',
+	function(){
+		const topcontainer = document.querySelector('.topcontainer');
+		topcontainer.classList.toggle("trans",window.scrollY > 100);
+	});
+window.addEventListener('scroll',
+	function(){
+		const prodcon = document.querySelector('.prodcon');
+		prodcon.classList.toggle("tool",window.scrollY > 250);
+	});
+window.addEventListener('scroll',
+	function(){
+		const hire = document.querySelector('.hire');
+		hire.classList.toggle("exp",window.scrollY > 500);
 	})

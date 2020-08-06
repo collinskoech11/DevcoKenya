@@ -30,6 +30,10 @@ body{
 	width:100%;
 	background-color: purple;
 }
+.trans{
+	height: 50vh;
+	transition: 3s;
+}
 .transition{
 	height: 50vh;
 	border-bottom-left-radius: 300%;
@@ -173,10 +177,11 @@ body{
 }
 .bg {
   position: relative;
-  height: 150vh;
+  height: auto;
   width: 100%;
   background: #fff;
   padding-top: 50px;
+  align-content: center;
 }
 .bg:after,
 .bg:before {
@@ -215,7 +220,9 @@ span {
 	width: 100%;
 	position: relative;
 	overflow: hidden;
+	transition: 2s;
 	z-index: 3;
+	margin-left: -1000px;
 	height: auto;
 	margin-top: 100px;
 	display: inline-block;
@@ -226,15 +233,22 @@ span {
 	padding-bottom: 50px;
 	background-color: rgb(255,0,255,0.5);
 }
+
 .prodcon .service{
 	float: left;
 	width: 25%;
-	height: 500px;
+	height: 300px;
+	overflow: hidden;
 	margin-left: 6%;
 	position: relative;
 	text-align: left;
 	line-height: 30px;
 }
+.tool{
+	margin-left: 0;
+	transition: 2s;
+}
+
 .hire{
 	width: 100%;
 	display: block;
@@ -244,6 +258,7 @@ span {
 	align-items: center;
 	padding-left: 45%;
 	padding-right:45%;
+	margin-bottom: 25px;
 }
 .hire button{
 	align-items: center;
@@ -256,6 +271,11 @@ span {
 	color: #fff;
 	background-color: purple;
 	margin-top: 30px;
+	transition: 2s;
+}
+.exp button{
+	width: 200px;
+	transition: 2s;
 }
 @media screen and (max-width: 800px){
 	.bg{
