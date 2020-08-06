@@ -78,17 +78,30 @@ font-family: sans-serif;
 	font-size: 40px;
 	display: block;
 	opacity: 1;
-	transition: 2s;
+	transition: 1s;
 	opacity: 1;
 }
-.topcontent .title h1 {
+
+.topcontent .title h1{
 	font-weight: 100px;
 	font-size: 100px;
 	text-transform: uppercase;
 }
-.topcontent .title h2 {
+.topcontent .title h2{
 	font-weight: 20px;
-	text-transform: lowercase;
+	text-transform: capitalize;
+}
+@media screen and (max-width: 800px){
+	.topcontent .title h1{
+		font-size: 70px;
+		text-transform: capitalize;
+		padding-bottom: 50px;
+	}
+	.topcontent .title h2{
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 60px;
+	}
 }
 .topcontent .nav-con{
 	width: 100%;
@@ -105,25 +118,32 @@ font-family: sans-serif;
 }
 .topcontent .navigation button{
 	float: left;
-	width: 100px;
-	height: 40px;
-	border-radius: 25px;
+	width: 200px;
+	height: 60px;
+	border-radius: 30px;
 	align-items: center;
 	border: none;
 	cursor: pointer;
 }
 .topcontent .nav-con .navigation .learn{
-	background-color: purple;
+	background-color: transparent;
+	border:1px solid white;
 	font-weight: bold;
 	color: #fff;
 	margin-right: 10px;
-	transition: 2s;
+	transition: 1s;
+}
+.topcontent .nav-con .navigation .learn:hover{
+	box-shadow: 1px 1px 5px  white;
 }
 .topcontent .nav-con .navigation  .join {
 	background-color: #fff;
 	font-weight: bold;
 	color:purple;
-	transition: 2s;
+	transition: 1s;
+}
+.topcontent .nav-con .navigation  .join:hover{
+	box-shadow: 1px 1px 7px  purple;
 }
 .diss{
 	transition:2s;
@@ -133,7 +153,7 @@ font-family: sans-serif;
 }
 .style{
 	background-color: rgb(100,0,255,0.3);
-	transition: 2s;
+	transition: 1s;
 }
 .style .buttons .btn {
 	padding-top: 10px;
@@ -184,52 +204,96 @@ span {
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
+  text-shadow:purple 1px 0 10px;
+}
+@media screen and (max-width: 800px){
+	span{
+		text-shadow:purple 1px 0 10px;
+	}
 }
 .prodcon{
 	width: 100%;
 	position: relative;
 	overflow: hidden;
 	z-index: 3;
-	height: 500px;
+	height: auto;
 	margin-top: 100px;
+	display: inline-block;
 	text-align: center;
 	align-content: center;
 	justify-content: center;
+	padding-top:50px;
+	padding-bottom: 50px;
 	background-color: rgb(255,0,255,0.5);
 }
-.slidecon{
-	width: 100%;
-	height: 100%;
+.prodcon .service{
+	float: left;
+	width: 25%;
+	height: 500px;
+	margin-left: 6%;
 	position: relative;
-	background:#000;
-	transition: 5s;
-	display: flex;
-	overflow-x: auto;
+	text-align: left;
+	line-height: 30px;
 }
-.slidecon .box{
-	width: 600px;
-	height: 70%;
-	background-color: #fff;
-	margin: 5%;
-	float:left;
+.hire{
+	width: 100%;
+	display: block;
+	position: relative;
+	z-index: 3;
+	align-content: center;
+	align-items: center;
+	padding-left: 45%;
+	padding-right:45%;
 }
-.slidecon .box #bone{
-	background-color: red;
+.hire button{
+	align-items: center;
+	margin:0 auto;
+	width: 100px;
+	height: 50px;
+	border-radius: 25px;
+	border:none;
+	font-weight: bold;
+	color: #fff;
+	background-color: purple;
+	margin-top: 30px;
 }
-.slidecon .box #bone{
-	background-color: blue;
+@media screen and (max-width: 800px){
+	.bg{
+		height: auto;
+	}
+	.prodcon{
+		height: auto;
+	}
+	.prodcon .service{
+		width: 87%;
+		margin-bottom: 30px;
+	}
 }
-@keyframes slide{
-	0%{
-		margin-left: 0;
-	}
-	25%{
-		margin-left: -60%
-	}
-	75%{
-		margin-left: -120%;
-	}
-	100%{
-		margin-left: 0;
-	}
+.prodcon .service .service-img{
+	width: 50%;
+	height: 200px;
+	float: right;
+	padding-bottom: 40px;
+
+}
+.prodcon .service .service-img img{
+	width:100%;
+	height:100%;
+}
+.prodcon .service .service-text .service-title{
+	width: 50%;
+	height:150px;
+	text-align: left;
+}
+.prodcon .service .service-text h2{
+	color:#fff;
+	font-size: 25px;
+	font-weight: 100px;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-right: 10px; 
+	text-shadow:purple 1px 0 10px;
+}
+.prodcon .service .service-text p{
+	font-size:20px;
 }
