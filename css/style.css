@@ -4,9 +4,9 @@
 	box-sizing: border-box;
 }
 body{
-overflow-x:hidden;
-height: 2000px;
-font-family: sans-serif;
+	overflow-x:hidden;
+	height: 2000px;
+	font-family: sans-serif;
 }
 .container{
 	width: 100%;
@@ -19,8 +19,8 @@ font-family: sans-serif;
 	background-attachment: fixed;
 	height: 90vh;
 	width:100%;
-	border-bottom:25deg;
-	border-bottom-left-radius: 25%;
+	border-bottom-right-radius: 5%;
+	border-bottom-left-radius: 5%;
 	transition: 2s;
 	position: relative;
 	z-index: 4;
@@ -32,9 +32,9 @@ font-family: sans-serif;
 }
 .transition{
 	height: 50vh;
-	border-bottom-left-radius: 75%;
+	border-bottom-left-radius: 300%;
 	transition: 2s;
-	border-bottom-right-radius: 50%;
+	border-bottom-right-radius: 10%;
 }
 .header{
 	display: inline-block;
