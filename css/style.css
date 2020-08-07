@@ -239,7 +239,7 @@ span {
 .prodcon .service{
 	float: left;
 	width: 25%;
-	height: 300px;
+	height: 390px;
 	overflow: hidden;
 	margin-left: 6%;
 	position: relative;
@@ -294,6 +294,12 @@ span {
 		width: 87%;
 		margin-bottom: 30px;
 	}
+	.hire{
+		padding-left: 35%;
+	}
+	.exp{
+		padding-left: 30%;
+	}
 }
 .prodcon .service .service-img{
 	width: 50%;
@@ -322,4 +328,54 @@ span {
 }
 .prodcon .service .service-text p{
 	font-size:20px;
+}
+.pop{
+	top:35vh;
+	left: 40%;
+	width: 300px;
+	height: 200px;
+	position: fixed;
+	display: none;
+	z-index: 20;
+	border-radius: 20px;
+	background-color: rgb(0,0,255,0.8);
+	align-content: center;
+	transition: 2s;
+	text-align: center;
+}
+.pop h4{
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	text-shadow:black 1px 0 10px;
+}
+ .pop .close{
+	transform: rotate(45deg);
+	position: relative;
+	height: auto;
+	width: 20px;
+	left: 10px;
+	font-size: 30px;
+	top:10px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow:black 1px 0 10px;
+	display: block;
+	cursor: pointer;
+}
+.pop button{
+	width: 150px;
+	height: 70px;
+	background-color: #fff;
+	color: purple;
+	font-weight: bold;
+	position: relative;
+	top:40px;
+	border:none;
+	border-radius: 35px;
+	cursor: pointer;
+}
+.popup{
+	display: block;
+	transition: 2s;
 }
