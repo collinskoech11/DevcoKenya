@@ -256,10 +256,7 @@ span {
 	display: block;
 	position: relative;
 	z-index: 3;
-	align-content: center;
-	align-items: center;
-	padding-left: 45%;
-	padding-right:45%;
+	text-align: center;
 	margin-bottom: 25px;
 }
 .hire button{
@@ -277,7 +274,6 @@ span {
 	cursor: pointer;
 }
 .exp{
-	padding-left: 40%;
 }
 .exp button{
 	width: 200px;
