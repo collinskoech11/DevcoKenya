@@ -29,16 +29,17 @@ body{
 	height: 90vh;
 	width:100%;
 	background-color: purple;
+	transition: 1s;
 }
 .trans{
 	height: 50vh;
-	transition: 3s;
+	transition: 1s;
 }
 .transition{
 	height: 50vh;
-	border-bottom-left-radius: 300%;
-	transition: 2s;
-	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10000px;
+	transition: 1s;
+	border-bottom-right-radius: 10000px;
 }
 .header{
 	display: inline-block;
@@ -210,6 +211,7 @@ span {
   font-size: 40px;
   text-transform: uppercase;
   text-shadow:purple 1px 0 10px;
+  transition: 2s;
 }
 @media screen and (max-width: 800px){
 	span{
@@ -272,6 +274,10 @@ span {
 	background-color: purple;
 	margin-top: 30px;
 	transition: 2s;
+	cursor: pointer;
+}
+.exp{
+	padding-left: 40%;
 }
 .exp button{
 	width: 200px;

@@ -29,7 +29,7 @@ window.addEventListener('scroll',
 window.addEventListener('scroll',
 	function(){
 		const topcontainer = document.querySelector('.topcontainer');
-		topcontainer.classList.toggle("trans",window.scrollY > 100);
+		topcontainer.classList.toggle("trans",window.scrollY > 40);
 	});
 window.addEventListener('scroll',
 	function(){
