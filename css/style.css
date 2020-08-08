@@ -239,7 +239,7 @@ span {
 .prodcon .service{
 	float: left;
 	width: 25%;
-	height: 390px;
+	height: auto;
 	overflow: hidden;
 	margin-left: 6%;
 	position: relative;
@@ -374,4 +374,8 @@ span {
 .popup{
 	display: block;
 	transition: 2s;
+}
+.lux{
+	width: 100%;
+	height: 100%;
 }
