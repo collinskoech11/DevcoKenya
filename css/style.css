@@ -468,3 +468,26 @@ span {
 		width: 100%;
 	}
 }
+.navi{
+	position:fixed;
+	top: 90%;
+	right: 5%;
+	z-index: 20;
+	margin-right: -150px;
+	width: 50px;
+	height: 40px;
+	background:navy;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	border:none;
+	border-radius: 5px;
+	transition: 1s;
+	cursor: pointer;
+	box-shadow: 0 5px 5px #fff;
+}
+.show{
+	margin-right: 20px;
+	transform: rotate(-360deg);
+	transition: 1s;
+}

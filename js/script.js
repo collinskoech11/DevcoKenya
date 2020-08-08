@@ -59,3 +59,16 @@ document.getElementById('dev').addEventListener('click',
 	function(){
 		document.querySelector('.popup').style.display = 'none';
 	});
+window.addEventListener("scroll", 
+	function() {
+		var button = document.querySelector("#low");
+		low.classList.toggle("show", window.scrollY > 100);
+		});
+document.getElementById('low').addEventListener('click',
+	function(){
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth"
+		});
+	});
+
