@@ -357,7 +357,13 @@ span {
 @media screen and (max-width: 800px){
 	.pop{
 		top: 25vh;
-		left: 25%;
+		left: 15%;
+	}
+}
+@media screen and (max-width: 600px){
+	.pop{
+		left: 0;
+		width: 100%;
 	}
 }
 .pop h4{
@@ -381,8 +387,8 @@ span {
 	cursor: pointer;
 }
 .pop button{
-	width: 150px;
-	height: 70px;
+	width: 250px;
+	height: 40px;
 	background-color: #fff;
 	color: purple;
 	font-weight: bold;
@@ -402,8 +408,45 @@ span {
 }
 .sec{
 	width: 100%;
-	height: 90vh;
+	height: auto;
 	background-image: url(../img/sec.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 	position: relative;
+	display: inline-block;
+	padding-bottom: 150px;
+}
+.sec .desc{
+	width: 50%;
+	color: #fff;
+	padding-left: 20px;
+	text-shadow:purple 1px 0 10px;
+	float: left;
+}
+.sec .desco{
+	float: right;
+	text-align: right;
+	width: 50%;
+	color: #fff;
+	padding-right:  20px;
+	padding-left: 30px;
+	text-shadow:green 1px 0 10px
+}
+.sec .desc h1{
+	font-size: 70px;
+	font-weight: bold;
+	padding-top: 150px;
+}
+.sec .desc h3{
+	font-size: 30px;
+	padding-top: 10px;
+}
+.sec .desco h1{
+	font-size: 70px;
+	font-weight: bold;
+	padding-top: 150px;
+}
+.sec .desco h3{
+	font-size: 30px;
+	padding-top: 10px;
 }

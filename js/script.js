@@ -44,7 +44,7 @@ window.addEventListener('scroll',
 window.addEventListener('scroll',
 	function(){
 		const pop = document.querySelector('.pop');
-		pop.classList.toggle("popup",window.scrollY>250);
+		pop.classList.toggle("popup",window.scrollY>500);
 	});
 document.getElementById('close').addEventListener('click',
 	function(){
