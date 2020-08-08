@@ -40,17 +40,17 @@ window.addEventListener('scroll',
 	function(){
 		const hire = document.querySelector('.hire');
 		hire.classList.toggle("exp",window.scrollY > 500);
-	})
+	});
 window.addEventListener('scroll',
 	function(){
 		const pop = document.querySelector('.pop');
 		pop.classList.toggle("popup",window.scrollY>250);
-	})
+	});
 document.getElementById('close').addEventListener('click',
 	function(){
 		document.querySelector('.popup').style.display = 'none';
-	})
+	});
 document.getElementById('dev').addEventListener('click',
 	function(){
 		document.querySelector('.popup').style.display = 'none';
-	})
+	});
