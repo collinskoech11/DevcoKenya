@@ -481,7 +481,7 @@ span {
 	font-weight: bold;
 	border:none;
 	border-radius: 5px;
-	transition: 1s;
+	transition: 2s;
 	cursor: pointer;
 	box-shadow: 0 5px 5px #fff;
 
@@ -490,5 +490,5 @@ span {
 	margin-right: 20px;
 	top:90%;
 	transform: rotate(-360deg);
-	transition: 1s;
+	transition: 2s;
 }
