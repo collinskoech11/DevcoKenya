@@ -47,10 +47,16 @@ body{
 	position: fixed;
 	transition: 2s;
 	z-index: 7;
+
 }
-.header .logo-area{
+.header .logoarea{
 	float: left;
 	width: 40%;
+	color: #fff;
+	opacity: 0;
+}
+.header .logo{
+	opacity: 1;
 }
 .header .buttons{
 	float: right;
@@ -66,7 +72,8 @@ body{
 	color: #000;
 	text-decoration: none;
 	font-weight: bold;
-	text-transform: capitalize;
+	text-transform: uppercase;
+	font-weight: bold;
 	color: #fff;
 	font-size: 10px;
 }
@@ -158,12 +165,16 @@ body{
 }
 .style{
 	background-color: rgb(100,0,255,0.3);
+	text-transform: uppercase;
+	font-weight: bold;
 	transition: 1s;
+	display: block;
 }
 .style .buttons .btn {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	transition: 2s;
+
 }
 .margone{
 	margin-left: -1000px;
@@ -233,7 +244,6 @@ span {
 	justify-content: center;
 	padding-top:50px;
 	padding-bottom: 50px;
-	background-color: rgb(255,0,255,0.5);
 }
 
 .prodcon .service{
@@ -247,16 +257,10 @@ span {
 	text-align: left;
 	line-height: 30px;
 	border-radius: 30px;
+	background-color: rgb(255,0,255,0.5);
+	box-shadow: 0 15px 15px rgb(0,0,0,0.7);
 }
-.prodcon .cyber{
-	background-color: rgb(255,255,255,0.5);
-}
-.prodcon .web{
-	background-color: rgb(255,255,255,0.5);
-}
-.prodcon .soft{
-	background-color: rgb(255,255,255,0.5);
-}
+
 .tool{
 	margin-left: 0;
 	transition: 2s;
@@ -424,18 +428,19 @@ span {
 	float: left;
 }
 .sec .desco{
-	float: right;
+	float: left;
 	text-align: right;
 	width: 50%;
 	color: #fff;
 	padding-right:  20px;
 	padding-left: 30px;
-	text-shadow:green 1px 0 10px
+	text-shadow:purple 1px 0 10px;
 }
 .sec .desc h1{
 	font-size: 70px;
 	font-weight: bold;
 	padding-top: 150px;
+	text-transform: capitalize;
 }
 .sec .desc h3{
 	font-size: 30px;
@@ -445,8 +450,21 @@ span {
 	font-size: 70px;
 	font-weight: bold;
 	padding-top: 150px;
+	text-transform: capitalize;
 }
 .sec .desco h3{
 	font-size: 30px;
 	padding-top: 10px;
+}
+@media screen and (max-width: 800px){
+	.sec{
+		height: auto;
+	}
+	.sec .desc{
+		width: 100%;
+		float: left;
+	}
+	.sec .desco{
+		width: 100%;
+	}
 }

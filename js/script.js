@@ -6,6 +6,11 @@ window.addEventListener('scroll',
 	});
 window.addEventListener('scroll',
 	function(){
+		const logoarea = document.querySelector('.logoarea');
+		logoarea.classList.toggle("logo",window.scrollY > 80);
+	})
+window.addEventListener('scroll',
+	function(){
 		const myHeader = document.querySelector('#myHeader');
 		myHeader.classList.toggle("style",window.scrollY > 300);
 	});
