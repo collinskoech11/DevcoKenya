@@ -6,6 +6,11 @@ window.addEventListener('scroll',
 	});
 window.addEventListener('scroll',
 	function(){
+		const logoarea = document.querySelector('.logoarea');
+		logoarea.classList.toggle("logo",window.scrollY > 80);
+	})
+window.addEventListener('scroll',
+	function(){
 		const myHeader = document.querySelector('#myHeader');
 		myHeader.classList.toggle("style",window.scrollY > 300);
 	});
@@ -29,7 +34,7 @@ window.addEventListener('scroll',
 window.addEventListener('scroll',
 	function(){
 		const topcontainer = document.querySelector('.topcontainer');
-		topcontainer.classList.toggle("trans",window.scrollY > 100);
+		topcontainer.classList.toggle("trans",window.scrollY > 40);
 	});
 window.addEventListener('scroll',
 	function(){
@@ -40,4 +45,30 @@ window.addEventListener('scroll',
 	function(){
 		const hire = document.querySelector('.hire');
 		hire.classList.toggle("exp",window.scrollY > 500);
-	})
+	});
+window.addEventListener('scroll',
+	function(){
+		const pop = document.querySelector('.pop');
+		pop.classList.toggle("popup",window.scrollY>500);
+	});
+document.getElementById('close').addEventListener('click',
+	function(){
+		document.querySelector('.popup').style.display = 'none';
+	});
+document.getElementById('dev').addEventListener('click',
+	function(){
+		document.querySelector('.popup').style.display = 'none';
+	});
+window.addEventListener("scroll", 
+	function() {
+		var button = document.querySelector("#low");
+		low.classList.toggle("show", window.scrollY > 100);
+		});
+document.getElementById('low').addEventListener('click',
+	function(){
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth"
+		});
+	});
+
