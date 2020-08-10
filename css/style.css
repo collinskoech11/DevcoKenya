@@ -492,3 +492,9 @@ span {
 	transform: rotate(-360deg);
 	transition: 2s;
 }
+.section{
+	width: 100%;
+	height: 100vh;
+	background:transparent;
+	position: relative;
+}
