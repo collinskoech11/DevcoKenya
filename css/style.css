@@ -498,3 +498,25 @@ span {
 	background:transparent;
 	position: relative;
 }
+.section{
+	width: 25%;
+	margin: 10px auto;
+}
+.section .carousel{
+	border:1px solid rgb(0,0,0);
+	height: 400px;
+	position: relative;
+}
+.section .carousel .slider{
+	height: 100%;
+	display: flex;
+	width: 400%;
+	position: absolute;
+}
+.section .carousel .slider section{
+	flex-basis: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
