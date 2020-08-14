@@ -55,6 +55,17 @@ body{
 	color: #fff;
 	opacity: 0;
 }
+.header .logoarea .logoTitle{
+	float:right;
+}
+.header .logoarea .logoImg{
+	float: left;
+
+}
+.header .logoarea .logoImg img{
+	width: 20px;
+	height: 20px;
+}
 .header .logo{
 	opacity: 1;
 }
@@ -67,6 +78,7 @@ body{
 	width: 23%;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	display: inline-block;
 }
 .header .buttons .btn a{
 	color: #000;
