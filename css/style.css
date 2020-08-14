@@ -536,3 +536,31 @@ span {
 	align-items: center;
 
 }
+.work{
+	text-align: center;
+	height: 500px;
+	width: 100%;
+	background-image: url(../img/white-bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.footer{
+	width: 100%;
+	height: 500px;
+	background:rgb(0,0,0);
+	display: inline-block;
+}
+.footer .footerLogo{
+	width: 35%;
+	height: 100%;
+	float: left;
+	background-image: url(../img/devco.png);
+	background-position: center;
+	background-size: cover;
+}
+.footer .footerText{
+	float: left;
+	width: 64%;
+	height: 100%;
+}
