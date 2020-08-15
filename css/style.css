@@ -571,3 +571,14 @@ span {
 	width: 64%;
 	height: 100%;
 }
+@media screen and (max-width: 800px){
+	.footer{
+		height: 400px;
+	}
+	.footer .footerLogo{
+		width: 50%;
+	}
+	.footer .footerText{
+		width: 49%;
+	}
+}
