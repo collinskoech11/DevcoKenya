@@ -80,6 +80,13 @@ body{
 	padding-bottom: 30px;
 	display: inline-block;
 }
+@media screen and (max-width: 800px){
+	.header .buttons .btn{
+		width:25%;
+		padding-left: 10px;
+		padding-right:5px;
+	}
+}
 .header .buttons .btn a{
 	color: #000;
 	text-decoration: none;
