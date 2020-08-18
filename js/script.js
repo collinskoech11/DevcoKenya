@@ -46,11 +46,11 @@ window.addEventListener('scroll',
 		const hire = document.querySelector('.hire');
 		hire.classList.toggle("exp",window.scrollY > 500);
 	});
-window.addEventListener('scroll',
-	function(){
+window.onload=function(){setTimeout(showPopup,50000)};
+	function showPopup(){
 		const pop = document.querySelector('.pop');
-		pop.classList.toggle("popup",window.scrollY>500);
-	});
+		pop.classList.toggle("popup");
+	};
 document.getElementById('close').addEventListener('click',
 	function(){
 		document.querySelector('.popup').style.display = 'none';
