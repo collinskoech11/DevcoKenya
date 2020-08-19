@@ -46,6 +46,12 @@ window.addEventListener('scroll',
 		const hire = document.querySelector('.hire');
 		hire.classList.toggle("exp",window.scrollY > 500);
 	});
+window.addEventListener('scroll',
+	function(){
+		const burger = document.querySelector('.burger');
+		burger.classList.toggle("top",window.scrollY>60);
+		burger.removeClass("top",window.scrollY<40);
+	});
 window.onload=function(){setTimeout(showPopup,50000)};
 	function showPopup(){
 		const pop = document.querySelector('.pop');

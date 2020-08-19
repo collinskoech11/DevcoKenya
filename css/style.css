@@ -87,6 +87,9 @@ body{
 .burger{
 	display: none;
 }
+.top .btn{
+	top:10px;
+}
 @media screen and (max-width: 800px){
 	.header .buttons .btn{
 		width:25%;
@@ -101,7 +104,7 @@ body{
 	}
 	.burger .btn{
 		right:2%;
-		top:60px;
+		top:20px;
 		position: fixed;
 		width: 40px;
 		height:40px;
@@ -124,6 +127,10 @@ body{
 	}
 	.burger .btn:hover .line{
 		opacity:1;
+	}
+	.top .btn{
+		top:10px;
+		transition: 2s;
 	}
 }
 .header .buttons .btn a{
