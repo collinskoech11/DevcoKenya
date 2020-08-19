@@ -49,7 +49,6 @@ body{
 	position: fixed;
 	transition: 2s;
 	z-index: 7;
-
 }
 .header .logoarea{
 	float: left;
@@ -82,11 +81,17 @@ body{
 	padding-bottom: 30px;
 	display: inline-block;
 }
+.navArea{
+
+}
 @media screen and (max-width: 800px){
 	.header .buttons .btn{
 		width:25%;
 		padding-left: 10px;
 		padding-right:5px;
+	}
+	.navArea{
+		display:none;
 	}
 }
 .header .buttons .btn a{
