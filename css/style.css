@@ -315,6 +315,10 @@ span {
 	width: 200px;
 	transition: 2s;
 }
+.exp button:hover{
+	width:250px;
+	transition: 1s;
+}
 @media screen and (max-width: 800px){
 	.bg{
 		height: auto;
@@ -559,6 +563,7 @@ span {
 	height: 500px;
 	background:rgb(0,0,0);
 	display: inline-block;
+	margin-bottom: -10px;
 }
 .footer .footerLogo{
 	width: 35%;
