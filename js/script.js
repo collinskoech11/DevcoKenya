@@ -71,6 +71,12 @@ document.getElementById('burger').addEventListener('click',
 	sidebar.classList.toggle('slide');
 	sidebar.removeClass('slide');
 });
+document.getElementById('burger').addEventListener('click',
+	function(){
+		const burger = document.querySelector('.burger');
+		burger.classList.toggle('trans');
+		burger.removeClass('trans');
+	});
 window.addEventListener("scroll", 
 	function() {
 		var button = document.querySelector("#low");
