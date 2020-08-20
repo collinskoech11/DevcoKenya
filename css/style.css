@@ -138,14 +138,20 @@ body{
 	position: fixed;
 	top: 70px;
 	right: 20px;
-	height: 250px;
+	height: auto;
+	overflow: hidden;
 	width: 250px;
 	z-index: 7;
 	border:1px solid rgb(0,0,0);
 	border-radius: 10px;
 	margin-right: -300px;
-	transition: 2s;
+	transition: 0.5s;
 	background-color: rgb(0,0,0,0.8);
+}
+@media screen and (min-width: 800px){
+	.sidebar{
+		display: none;
+	}
 }
 .sidebar .col{
 	height: 60px;
@@ -162,15 +168,16 @@ body{
 	text-decoration:none;
 	text-transform: uppercase;
 }
-.sidebar a:hover{
-	color: purple;
-}
 .sidebar .col:hover{
-	border-bottom: 2px solid rgb(255,0,255,0.5);
+	background-color: rgb(255,0,255,0.4);
+	border:none;
+}
+.sidebar .col:hover a{
+	color: red;
 }
 .slide{
 	margin-right: 0;
-	transition: 1s;
+	transition: 0.5s;
 }
 .trip .btn{
 	background-color: rgb(0,0,0);
