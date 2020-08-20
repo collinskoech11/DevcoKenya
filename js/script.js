@@ -74,8 +74,8 @@ document.getElementById('burger').addEventListener('click',
 document.getElementById('burger').addEventListener('click',
 	function(){
 		const burger = document.querySelector('.burger');
-		burger.classList.toggle('trans');
-		burger.removeClass('trans');
+		burger.classList.toggle('trip');
+		burger.removeClass('trip');
 	});
 window.addEventListener("scroll", 
 	function() {
