@@ -133,6 +133,31 @@ body{
 		transition: 2s;
 	}
 }
+.slide{
+	display: block;
+}
+.sidebar{
+	position: fixed;
+	top: 70px;
+	right: 20px;
+	height: 250px;
+	width: 250px;
+	z-index: 7;
+	border:1px solid rgb(0,0,0);
+	border-radius: 10px;
+	display: none;
+}
+.sidebar .col{
+	height: 60px;
+	padding-top: 20px;
+	padding-left: 15%;
+}
+.sidebar a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform: uppercase;
+}
 .header .buttons .btn a{
 	color: #000;
 	text-decoration: none;

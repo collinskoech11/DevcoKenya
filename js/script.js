@@ -65,6 +65,12 @@ document.getElementById('dev').addEventListener('click',
 	function(){
 		document.querySelector('.popup').style.display = 'none';
 	});
+document.getElementById('burger').addEventListener('click',
+	function(){
+	const sidebar = document.querySelector('.sidebar');
+	sidebar.classList.toggle('slide');
+	sidebar.removeClass('slide');
+});
 window.addEventListener("scroll", 
 	function() {
 		var button = document.querySelector("#low");
