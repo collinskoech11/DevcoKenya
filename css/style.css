@@ -685,6 +685,22 @@ span {
 	width: 64%;
 	height: 100%;
 }
+.footer .Ename{
+	width: 25%;
+	height: 50px;
+	background-color: purple;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.footer .FEmail{
+	width: 40%;
+	height: 250px;
+	background-color: purple;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
 @media screen and (max-width: 800px){
 	.footer{
 		height: 400px;
