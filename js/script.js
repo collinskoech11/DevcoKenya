@@ -48,9 +48,15 @@ window.addEventListener('scroll',
 	});
 window.addEventListener('scroll',
 	function(){
-		const pop = document.querySelector('.pop');
-		pop.classList.toggle("popup",window.scrollY>500);
+		const burger = document.querySelector('.burger');
+		burger.classList.toggle("top",window.scrollY>60);
+		burger.removeClass("top",window.scrollY<40);
 	});
+window.onload=function(){setTimeout(showPopup,50000)};
+	function showPopup(){
+		const pop = document.querySelector('.pop');
+		pop.classList.toggle("popup");
+	};
 document.getElementById('close').addEventListener('click',
 	function(){
 		document.querySelector('.popup').style.display = 'none';
@@ -58,6 +64,18 @@ document.getElementById('close').addEventListener('click',
 document.getElementById('dev').addEventListener('click',
 	function(){
 		document.querySelector('.popup').style.display = 'none';
+	});
+document.getElementById('burger').addEventListener('click',
+	function(){
+	const sidebar = document.querySelector('.sidebar');
+	sidebar.classList.toggle('slide');
+	sidebar.removeClass('slide');
+});
+document.getElementById('burger').addEventListener('click',
+	function(){
+		const burger = document.querySelector('.burger');
+		burger.classList.toggle('trip');
+		burger.removeClass('trip');
 	});
 window.addEventListener("scroll", 
 	function() {
@@ -71,4 +89,3 @@ document.getElementById('low').addEventListener('click',
 			behavior: "smooth"
 		});
 	});
-
