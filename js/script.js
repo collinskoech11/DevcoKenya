@@ -26,6 +26,7 @@ window.addEventListener('scroll',
 		join.classList.toggle("margtwo",window.scrollY > 60);
 		join.removeClass("margtwo",window.scrollY < 40);
 	});
+
 window.addEventListener('scroll',
 	function(){
 		const topcontent = document.querySelector('.topcontent');
