@@ -620,7 +620,6 @@ span {
 
 }
 .show{
-	margin-right: 20px;
 	opacity: 1;
 	transition: 2s;
 }
