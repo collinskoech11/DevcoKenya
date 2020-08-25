@@ -647,7 +647,8 @@ span {
 	width: 35%;
 	height: auto;
 	float: left;
-	margin-right: 15%;
+	margin-left: 5%;
+	margin-right: 10%;
 }
 .work{
 	text-align: center;
