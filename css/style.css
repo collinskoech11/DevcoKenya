@@ -638,23 +638,16 @@ span {
 	color:#fff;
 	padding-left: 50px;
 }
-.section .carousel{
-	border:1px solid rgb(0,0,0);
-	height: 700px;
-	position: relative;
+.seccon{
+	width: 100%;
+	height:auto;
+	display:inline-block;
 }
-.section .carousel .slider{
-	height: 100%;
-	display: flex;
-	width: 400%;
-	position: absolute;
-}
-.section .carousel .slider section{
-	flex-basis: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
+.seccon .p-img{
+	width: 35%;
+	height: auto;
+	float: left;
+	margin-right: 15%;
 }
 .work{
 	text-align: center;
