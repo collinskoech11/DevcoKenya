@@ -666,6 +666,7 @@ span {
 	background:rgb(0,0,0);
 	display: inline-block;
 	margin-bottom: -10px;
+	box-shadow: none;
 }
 .footer .footerLogo{
 	width: 35%;
