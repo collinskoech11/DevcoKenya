@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
+body a{
+   color: #000;
+}
+#myHeader a{
+    color: #000;
 }
 .blog-header a{
     color: black;
