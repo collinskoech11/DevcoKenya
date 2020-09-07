@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body a{
-   color: #000;
-}
+
 #myHeader a{
     color: #000;
+}
+.style a{
+    color: aliceblue;
 }
 .blog-header a{
     color: black;
