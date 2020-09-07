@@ -6,9 +6,12 @@
 body{
     background-color: black;
 }
-.header a{
+.blog-header a{
     color: black;
 }
-.header .logoarea{
+.blog-header .logoarea{
     color: black;
+}
+.header .buttons .btn a{
+    color:black;
 }
