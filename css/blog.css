@@ -45,7 +45,9 @@
 
 }
 .content-section{
-    width: 100%;
+    width: 60%;
+    margin-left: 19%;
+    margin-right: 19%;
     display: inline-block;
     height: auto;
 }
@@ -85,5 +87,5 @@
     overflow: hidden;
 }
 @media screen and (max-width:800px){
-    
+
 }
