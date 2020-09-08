@@ -19,3 +19,26 @@
 .header .buttons .btn a{
     color:black;
 }
+.bod{
+    width: 100%;
+    height: auto;
+}
+.bod .blogpost{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    border-bottom: gray solid 1px;
+    border-top: gray solid 1px;
+}
+@media screen and (max-width:800px){
+    .bod .blogpost{
+        margin-top: 50px;
+    }
+}
+.bod .blogpost .blogpost-sub{
+    width: 20%;
+    float: left;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
