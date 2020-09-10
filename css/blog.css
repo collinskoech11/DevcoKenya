@@ -29,8 +29,9 @@
     margin-right: 14%;
     height: auto;
     display: inline-block;
-    border-bottom: gray solid 1px;
-    border-top: gray solid 1px;
+    background-color: #fff;
+    border-bottom: 2px solid navy;
+    z-index: 100;
 }
 @media screen and (max-width:800px){
     .bod .blogpost{
