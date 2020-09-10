@@ -89,3 +89,9 @@ document.getElementById('low').addEventListener('click',
 			behavior: "smooth"
 		});
 	});
+	document.querySelector('.up').addEventListener('click',
+	function(){
+		const chatimg = document.querySelector('.up');
+		chatimg.classList.toggle('spin');
+		chatimg.removeClass('spin');
+	});

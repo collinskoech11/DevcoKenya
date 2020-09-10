@@ -759,7 +759,9 @@ span {
     height: 75%;
     margin-top: 20%;
     margin-left: 20%;
-    margin-right: 10%;
+	margin-right: 10%;
+	transition: 0.5s;
+	cursor: pointer;
 }
 .chatBox .up img{
 	margin-top: 25%;
@@ -773,11 +775,14 @@ span {
 	height: 50px;
 	background-color: transparent;
 	float: left;
-
 }
 .chatBox .chatText p{
 	color: #fff;
 	text-align: center;
 	text-shadow:black 1px 0 10px;
 	padding-top: 15px;
+}
+.spin img{
+    transform: rotate(180deg);
+    transition: 0.5s;
 }
