@@ -44,7 +44,7 @@
     display: inline-block;
     background-color: #fff;
     border-radius: 30px;
-    border-top: 1px solid rgb(0, 0, 0);
+    border-top: 0.01px solid rgb(0, 0, 0);
     border-bottom: 2px solid navy;
     z-index: 100;
 }
@@ -145,3 +145,14 @@
         margin-right: 0;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
