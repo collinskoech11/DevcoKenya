@@ -3,7 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.addWall,.subAddWall{
+    width: 270px;
+    position: fixed;
+    z-index: 150;
+    top: 10vh;
+    height: 80vh;
+    border: 1px solid black;
+}
+.addWall{
+    left: 20px;
+}
+.subAddWall{
+    right: 20px;
+}
 /**#myHeader a{
     color: #000;
 }
