@@ -100,4 +100,4 @@ document.querySelector('.up').addEventListener('click',
 		const chat = document.querySelector('.chatBox');
 		chat.classList.toggle('text');
 		chat.removeClass('text');
-	})
+	});
