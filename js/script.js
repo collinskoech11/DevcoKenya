@@ -95,3 +95,9 @@ document.getElementById('low').addEventListener('click',
 		chatimg.classList.toggle('spin');
 		chatimg.removeClass('spin');
 	});
+document.querySelector('.up').addEventListener('click',
+	function(){
+		const chat = document.querySelector('.chatBox');
+		chat.classList.toggle('text');
+		chat.removeClass('text');
+	})
