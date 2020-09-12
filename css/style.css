@@ -790,10 +790,11 @@ span {
 	display:none;
 	width: 100%;
 	height: 200px;
-	padding:10% auto;
 }
 .topBox .holder img{
-	height:100%;
+	width:50%;
+	height:50%;
+	margin:auto 30%;
 }
 .spin img{
     transform: rotate(180deg);
