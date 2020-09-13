@@ -10,3 +10,10 @@ document.getElementById('burger').addEventListener('click',
 		burger.classList.toggle('trip');
 		burger.removeClass('trip');
 	});
+document.getElementById('low').addEventListener('click',
+function(){
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth"
+		});
+	});
