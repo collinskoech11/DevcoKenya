@@ -26,7 +26,20 @@
 			</div>
 		</div>
 		<div class="messageBox">
-			<input type="text" placeholder="your message here" class="write">
+			<form action="https://formspree.io/moqpaydg" method="POST">
+  				<label>
+    			Your email:
+   				<input type="text" name="_replyto">
+  				</label>
+ 	 			<label>
+    			Your message:
+    			<textarea name="message"></textarea>
+ 			 	</label>
+
+  <!-- your other form fields go here -->
+
+  				<button type="submit">Send</button>
+			</form>
 		</div>
 	</div>
 	<button class="navi" id="low"><i class="material-icons">arrow_upward</i></button>
@@ -188,10 +201,16 @@
 			<div class="footerText">
 				<h4>Reach out to us</h4>
 				<div class="form">
-					<form action="mailto:kenyadevco@gmail.com" method="POST" enctype=”multipart/form-data” name="EmailForm">
-						 <br>
-						<input type="text" placeholder="Your Name" class="Ename"><br><br>
-						<br> <textarea rows=”6″ cols="20" placeholder="Your message here:" class="FEmail" ></textarea><br><br> <button type="submit" value="submit">submit</button>
+					<form action="https://formspree.io/moqpaydg" method="POST" enctype=”multipart/form-data” name="EmailForm">
+						<label>
+							Your email:
+							<input type="text" name="_replyto" class="Ename">
+						  </label>
+						  <label>
+							Your message:
+							<textarea name="message" class="FEmail"></textarea>
+						  </label> <button type="submit">Send</button>
+
 					</form>
 				</div>
 			</div>
