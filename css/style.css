@@ -787,6 +787,8 @@ span {
 	padding-top: 15px;
 }
 .chatBox .topBox .holder{
+	background-image: url("../img/ask.png");
+	background-size: cover;	
 	display:none;
 	width: 100%;
 	height: 200px;
